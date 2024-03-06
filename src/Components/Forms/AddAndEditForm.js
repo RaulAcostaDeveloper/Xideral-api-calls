@@ -8,7 +8,9 @@ import { patchEmployee, patchUsuario } from '../../ApiCalls/Patch';
 import { deleteUser } from '../../ApiCalls/Delete';
 import { DataContext } from '../../App';
 
-// Este formulario sirve tanto para editar como para añadir un empleado
+// Este formulario sirve tanto para editar como para añadir un empleado.
+// En este componente se encuentran los métodos más pesados.
+// Son las validaciones (línea 59) y el manejo del envío de datos (línea 120)
 export const AddAndEditForm = ({ handleCloseForm }) => {
 
     // Extracción de data from useContext
@@ -53,7 +55,7 @@ export const AddAndEditForm = ({ handleCloseForm }) => {
 
     // ------ useEffect para controlar la valides del formulario. -------
     // Para cada caso puede arrojar un mensaje de error
-    // (pero hoy no tengo tanto tiempo como para manejar errores independientes de formulario)
+    // (pero hoy no tengo tanto tiempo como para manejar vistas de errores independientes en el formulario)
     useEffect(()=>{
         // Debe pasar todas las validaciones antes de activar el botón de enviar
         let isValid = false;
@@ -81,6 +83,7 @@ export const AddAndEditForm = ({ handleCloseForm }) => {
             isValid = isValid && isValidUserInfo;
         }
         setIsValidationComplete(isValid);
+    // Escucha todos los campos del form
     },[nameForm, firstApellidoForm, secondApellidoForm, dataBirth, userNameForm, userEmailForm, userPasswordForm, userHasAcceso]);
 
     // Validaciones en línea de datos de employee (para inputs)
