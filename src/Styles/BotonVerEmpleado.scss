@@ -1,0 +1,15 @@
+.botonVerEmpleadoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .botonVerEmpleado {
+        background-color: transparent;
+        display: flex;
+        border: 1px solid $GrayBorder;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .botonVerEmpleado:hover {
+        background-color: $BlueXideral;
+    }
+}

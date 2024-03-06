@@ -1,0 +1,17 @@
+.UserTableContainer {
+    max-width: '100%';
+    overflow-x: 'auto';
+    padding: 20px 40px;
+    .MuiPaper-root {
+        border: 1px solid $GrayBorder;
+        border-radius: 10px;
+    }
+    .MuiTableCell-head{
+        font-weight: bold;
+    }
+    .MuiTableCell-root {
+        border-left: 1px solid $GrayBorder;
+        text-align: center;
+        padding: 10px;
+    }
+}

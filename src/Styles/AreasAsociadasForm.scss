@@ -1,0 +1,67 @@
+.AreasAsociadasForm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(179, 179, 179, 0.384);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .inner {
+        width: 300px;
+        border: 2px solid $GrayBorder;
+        background-color: white;
+        border-radius: 4px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .headerBotonClose {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            border: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .headerBotonClose:hover {
+            background-color: $GrayBorder;
+        }
+        .contentInside {
+            width: 300px;
+            .areaBox {
+                display: flex;
+                flex-wrap: wrap;
+                .title {
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .checkbox {
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .botonesAccionesForm {
+                margin-top: 40px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+@include tablet {
+    .AreasAsociadasForm {
+        .inner {
+            width: 500px;
+        }
+    }
+}

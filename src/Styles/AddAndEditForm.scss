@@ -1,0 +1,40 @@
+.addAndEditForm {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .containerDataForm {
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .MuiFormControl-root {
+            margin-top: 20px;
+            width: 300px;
+            .MuiInputBase-input {
+                text-align: center;
+            }
+            .MuiFormLabel-root  {
+                font-weight: bold;
+            }
+        }
+        .switchAccesoAlSistema {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 300px;
+            font-weight: bold;
+            .notAccess {
+                .MuiSwitch-thumb {
+                    background-color: $BlueMaterialUITheme;
+                }
+                .MuiSwitch-track {
+                    background-color: transparent;
+                    -webkit-box-shadow: 0px 0px 2px 2px $GrayBorder;
+                    -moz-box-shadow: 0px 0px 2px 2px $GrayBorder;
+                    box-shadow: 0px 0px 2px 2px $GrayBorder;
+                }
+            }
+        }
+    }
+}

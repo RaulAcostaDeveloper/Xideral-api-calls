@@ -1,0 +1,16 @@
+.BotonAgregarEmpleado {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    button {
+        margin-right: 40px;
+        border: 2px solid $BlueXideral;
+        font-weight: bold;
+        padding: 10px 30px;
+        background-color: transparent;
+        border-radius: 4px;
+    } :hover {
+        background-color: $BlueXideral;
+        color: white;
+    }
+}

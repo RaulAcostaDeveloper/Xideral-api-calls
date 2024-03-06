@@ -1,0 +1,81 @@
+.DetallesDelEmpleadoPage {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .detallesContainer {
+        width: 300px;
+        .dataDetails {
+            width: 100%;
+            text-align: left;
+            display: flex;
+            margin-top: 30px;
+            .title {
+                width: 60%;
+                font-weight: bold;
+            }
+            .info {
+                width: 40%;
+            }
+        }
+        .DataDetailsCard {
+            margin-top: 40px;
+            border: 2px solid $GrayBorder;
+            border-radius: 4px;
+            .headerCard {
+                border-bottom: 2px solid $GrayBorder;
+                padding: 5px 10px;
+                display: flex;
+                .botonVerEmpleadoContainer {
+                    width: 50%;
+                    justify-content: left;
+                }
+                .botonEditarEmpleadoContainer {
+                    width: 50%;
+                    justify-content: right;
+                }
+            }
+            .titleCard {
+                text-align: center;
+            }
+            .contentCard {
+                padding: 2px;
+                .dataDetails {
+                    .title {
+                        width: 55%;
+                    }
+                    .info {
+                        width: 45%;
+                    }
+                }
+            }
+        }
+        .containerButtonCerrar {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            button {
+                padding: 15px 40px;
+                font-weight: bold;
+                background-color: transparent;
+                border: none;
+                border-radius: 4px;
+                color: white;
+                background-color: $BlueXideral;
+            }
+        }
+    }
+}
+@include tablet {
+    .DetallesDelEmpleadoPage {
+        .detallesContainer {
+            width: 400px;
+            .DataDetailsCard {
+                .contentCard {
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.botonEditarEmpleadoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .botonEditarEmpleado {
+        background-color: transparent;
+        display: flex;
+        border: 1px solid $GrayBorder;
+        padding: 5px;
+        border-radius: 50%;
+    } 
+    .botonEditarEmpleado:hover {
+        background-color: $BlueXideral;
+    }
+}

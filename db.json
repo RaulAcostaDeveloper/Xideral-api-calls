@@ -1,0 +1,129 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "empName": "admin",
+      "empFirstName": "admin",
+      "empLastName": "",
+      "empBirthDate": "",
+      "empSystemAccess": true
+    },
+    {
+      "id": "2",
+      "empName": "asdsds",
+      "empFirstName": "dsdsds",
+      "empLastName": "dwdwd",
+      "empBirthDate": "wdwdwdwwdw",
+      "empSystemAccess": false
+    },
+    {
+      "id": "3",
+      "empName": "dwdwdq",
+      "empFirstName": "qwdwqd",
+      "empLastName": "dasdawsd",
+      "empBirthDate": "wdqwdqdass",
+      "empSystemAccess": true
+    },
+    {
+      "id": "4",
+      "empName": "John Doe",
+      "empFirstName": "John Doe",
+      "empLastName": "John Doe",
+      "empBirthDate": "John Doe12",
+      "empSystemAccess": false
+    },
+    {
+      "id": "5",
+      "empName": "John Doe12",
+      "empFirstName": "John Doe12",
+      "empLastName": "John Doe12",
+      "empBirthDate": "John Doe12",
+      "empSystemAccess": false
+    },
+    {
+      "id": "6",
+      "empName": "John Doe12",
+      "empFirstName": "John Doe12",
+      "empLastName": "John Doe12",
+      "empBirthDate": "John Doe12",
+      "empSystemAccess": false
+    },
+    {
+      "id": "7",
+      "empName": "dfsfsds",
+      "empFirstName": "dfsdf",
+      "empLastName": "sdfsdfs",
+      "empBirthDate": "dfsdfdddss",
+      "empSystemAccess": false
+    },
+    {
+      "id": "8",
+      "empName": "2Juan",
+      "empFirstName": "2Juan",
+      "empLastName": "2Juan",
+      "empBirthDate": "asdasddsah",
+      "empSystemAccess": false
+    },
+    {
+      "id": "9",
+      "empName": "jjjjjjjjj",
+      "empFirstName": "mmmmmmm",
+      "empLastName": "mmmmm",
+      "empBirthDate": "mmmmmmmmmm",
+      "empSystemAccess": true
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "employeeId": "1",
+      "usrEmail": "admin@mail.com",
+      "usrName": "admin",
+      "usrPassword": "12r1sd23r",
+      "usrAreas": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "2",
+      "employeeId": "3",
+      "usrEmail": "cqwcq@oq.dd",
+      "usrName": "cqwd",
+      "usrPassword": "qwcqwc",
+      "usrAreas": [
+        "1"
+      ]
+    },
+    {
+      "id": "3",
+      "employeeId": "9",
+      "usrEmail": "asdasda@osadsda.com",
+      "usrName": "rrrrrrrrrr",
+      "usrPassword": "regregeg",
+      "usrAreas": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "areas": [
+    {
+      "id": "1",
+      "joaName": "Area 1",
+      "joaAbbreviation": "A1"
+    },
+    {
+      "id": "2",
+      "joaName": "Area 2",
+      "joaAbbreviation": "A2"
+    },
+    {
+      "id": "3",
+      "joaName": "Area 3",
+      "joaAbbreviation": "A3"
+    }
+  ]
+}
